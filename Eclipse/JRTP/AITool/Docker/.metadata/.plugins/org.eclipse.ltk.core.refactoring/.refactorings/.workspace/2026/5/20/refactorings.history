@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;kafkaAI&apos;" deleteContents="false" description="Delete resource &apos;kafkaAI&apos;" element1="/kafkaAI" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1778580504611"/>&#x0A;<refactoring comment="Copy Project &apos;kafkaPart1&apos;" description="Copy Project &apos;kafkaPart1&apos;" destination="C:/Learning/Eclipse/JRTP/AITool/Docker" element="/kafkaPart1" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="kafkaPart2" stamp="1778764396323"/>
+</session>

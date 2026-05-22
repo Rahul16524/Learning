@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.kafkaAI&apos; to &apos;com.example&apos;&#x0D;&#x0A;- Original project: &apos;kafkaAI&apos;&#x0D;&#x0A;- Original element: &apos;kafkaAI/src/main/java/com.example.kafkaAI&apos;&#x0D;&#x0A;- Renamed element: &apos;kafkaAI/src/main/java/com.example&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.kafkaAI&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.kafkaAI" name="com.example" qualified="false" references="true" stamp="1778495399392" textual="false" version="1.0"/>
+</session>

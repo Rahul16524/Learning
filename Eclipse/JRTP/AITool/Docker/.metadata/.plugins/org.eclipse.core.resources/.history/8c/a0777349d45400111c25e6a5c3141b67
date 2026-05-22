@@ -1,0 +1,24 @@
+package com.example;
+
+import org.apache.kafka.clients.admin.NewTopic;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.kafka.config.TopicBuilder;
+
+@SpringBootApplication
+public class KafkaPart3transactionProducerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(KafkaPart3transactionProducerApplication.class, args);
+	}
+
+	@Bean
+	public NewTopic topic() {
+		return TopicBuilder
+				.name("bank-transactions")
+				.partitions(3)
+				.replicas(1)
+				.build();
+	}
+}

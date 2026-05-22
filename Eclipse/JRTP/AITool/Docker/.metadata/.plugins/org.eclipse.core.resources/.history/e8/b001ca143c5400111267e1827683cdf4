@@ -1,0 +1,28 @@
+package com.example.producerService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+import com.example.model.Transaction;
+
+@Service
+public class TransactionProducer {
+
+	@Autowired
+	private KafkaTemplate<String, Transaction> kafkaTemplate;
+	
+	public void send(Transaction transaction) {
+		
+		kafkaTemplate.send("bank-transactions",
+						transaction.getCustomerId(),		// this is key
+						transaction);
+		
+	}
+	
+}
+
+// internally for line transaction.getCustomerId()
+// convert to hash(customerId) % partitions
+
+

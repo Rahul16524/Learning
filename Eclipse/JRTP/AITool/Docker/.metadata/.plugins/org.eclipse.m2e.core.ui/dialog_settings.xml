@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart3transaction-producer\kafkaPart3transaction-producer"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart3transaction-consumer\kafkaPart3transaction-consumer"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart3transaction-consumer"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart3transaction-producer"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart3\kafkaPart2"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart2"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\Mockito1"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaPart1"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\kafkaAI"/>
+			<item value="C:\Learning\Eclipse\JRTP\AITool\JunitIntegrationTesting"/>
+			<item value="C:\Learning\Eclipse\Docker\DockerDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Learning\Eclipse\JRTP\AITool\Docker\DockerDemo\src\main\java\com\example\DockerDemoApplication.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="in.example.Junit"/>
+		</list>
+		<list key="groupId">
+			<item value="in.example"/>
+		</list>
+		<list key="artifactId">
+			<item value="Junit"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

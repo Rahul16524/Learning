@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.producer&apos; to &apos;com.example.producerService&apos;&#x0D;&#x0A;- Original project: &apos;kafkaPart3transaction-producer&apos;&#x0D;&#x0A;- Original element: &apos;kafkaPart3transaction-producer/src/main/java/com.example.producer&apos;&#x0D;&#x0A;- Renamed element: &apos;kafkaPart3transaction-producer/src/main/java/com.example.producerService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.producer&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.producer" name="com.example.producerService" qualified="false" references="true" stamp="1779262551159" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="in.example.Junit.OTPService"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="in.example.Junit.BankAccount"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="com.example.entity.Order"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListener"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListeners"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.internals.Topic"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.example.model.Order"/>
+    <fullyQualifiedTypeName name="com.example.model.Transaction"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.support.KafkaHeaders"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.config.TopicBuilder"/>
+</qualifiedTypeNameHistroy>

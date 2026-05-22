@@ -1,0 +1,27 @@
+package com.example.consumer;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.model.Order;
+import com.example.producer.OrderProducer;
+
+public class OrderConsumer {
+	
+	@KafkaListener(
+            topics = "orders-topic",
+            groupId = "my-group"
+    )
+    public void consume(Order order) {
+
+        System.out.println("Order Received");
+
+        System.out.println(order.getId());
+
+        System.out.println(order.getProduct());
+
+        System.out.println(order.getPrice());
+    }
+
+	
+}

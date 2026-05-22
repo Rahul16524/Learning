@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;in.ashokit.util&apos; to &apos;SpringBootOAuth2Resource/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootEmployeeCRUDJWTNew&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootOAuth2Resource/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;SpringBootEmployeeCRUDJWTNew/src/main/java/in.ashokit.util&apos;" description="Copy package" destination="=SpringBootOAuth2Resource/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ashokit.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1775656011578" version="1.0"/>
+</session>

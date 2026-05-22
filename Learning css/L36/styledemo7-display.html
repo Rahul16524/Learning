@@ -1,0 +1,43 @@
+<!-- display -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+       /* .form-group{
+        display: inline
+       } */
+       /* not work, form-group is already inline, 
+                    we want div to be inline */
+        .form-group div{
+            /* display: inline */
+
+            /* display: block; */
+
+            display: flex;
+            /* not work it should be apply to the outer div */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <img src="assets/star.png" alt=""> -->
+
+    <div class="form-group">
+        <div >
+            <input type="text" placeholder="User Name">
+        </div>
+        <div>
+            <input type="password" placeholder="Your Password">
+        </div>
+        <div>
+            <button> Login </button>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+spring.application.name=kafkaPart3transaction-consumer
+
+server.port=8081
