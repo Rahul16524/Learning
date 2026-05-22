@@ -1,0 +1,30 @@
+<!-- Redering the other file member in html, like by export keyword, and rendering in the html file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="module">
+        import {Hello, Welcome} from "./library/modules/DemoModule.js";
+
+        // document.write(Hello());
+        document.querySelector("h2").innerHTML = Hello();
+        
+        // Welcome();
+
+
+        document.querySelector("p").innerHTML = Welcome();
+    </script>
+
+    <!-- point 2. if we remove script = module then it will not work, else it will use default type of cjs,
+     and type = "text/javascript" prev we use to write but this will also not work   -->
+</head>
+<body>
+    <div id="root"></div>
+    <h2></h2>
+    <p></p>
+</body>
+</html>

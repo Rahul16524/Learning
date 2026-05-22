@@ -1,0 +1,18 @@
+<script>
+    var product = {
+        Name: "TV",
+        Mfd: new Date("2022-10-11 20:40:28.77")
+    }
+    let weekDays = ["Sunday", "Monday", "Tue" , "Wed", "Thurs" , "Fri", "Sat"];
+
+    
+    document.write(`
+        Name: ${product.Name} ,<br>
+        Mfd: ${product.Mfd} ,<br>
+        Date: ${product.Mfd.getDate()} , <br>
+        Day: ${weekDays[product.Mfd.getDay()]} , <br>
+        Month: ${product.Mfd.getFullYear()} , <br>
+    `);
+
+    
+</script>

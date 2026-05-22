@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script src="../node_modules/react/cjs/react.development.js"></script>
+    <script src="../node_modules/react-dom/cjs/react-dom.development.js"></script>
+    <script src="../node_modules/@babel/standalone/babel.js"></script>
+
+    <script type="text/babel">      // will not work in browser, as cjs system not loaded in browser, only compatible with node which is present in our system 
+        const root = ReactDOM.createRoot(document.getElementById("root"));  // virtual dom capable variable
+        root.render("Welcome to React Home");
+    </script> -->
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="../node_modules/@babel/standalone/babel.js"></script>
+
+    <!-- rendering in the root, in the index itself  -->
+    <script type="text/babel">      // will not work in browser, as cjs system not loaded in browser, only compatible with node which is present in our system 
+        const root = ReactDOM.createRoot(document.getElementById("root"));  // virtual dom capable variable
+        root.render(<b>Welcome to React Home</b>);
+    </script>
+
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

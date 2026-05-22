@@ -1,0 +1,90 @@
+<script>
+    var products = [
+        {
+    "product_id": 1,
+    "name": "Smartphone",
+    "description": "High-end smartphone with advanced features.",
+    "price": 599.99,
+    "unit": "Piece",
+    "image": "https://example.com/images/smartphone.jpg",
+    "discount": 10,
+    "availability": true,
+    "brand": "BrandX",
+    "category": "Electronics",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "user_id": 1,
+        "rating": 5,
+        "comment": "Great phone with a superb camera!"
+      },
+      {
+        "user_id": 2,
+        "rating": 4,
+        "comment": "Good performance, but the battery life could be better."
+      }
+    ]
+  },
+  {
+    "product_id": 2,
+    "name": "Laptop",
+    "description": "Powerful laptop for work and gaming.",
+    "price": 999.99,
+    "unit": "Piece",
+    "image": "https://example.com/images/laptop.jpg",
+    "discount": 5,
+    "availability": true,
+    "brand": "BrandY",
+    "category": "Electronics",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "user_id": 3,
+        "rating": 5,
+        "comment": "Excellent laptop for gaming and work tasks."
+      },
+      {
+        "user_id": 4,
+        "rating": 4,
+        "comment": "Good value for the price."
+      }
+    ]
+  },
+  {
+    "product_id": 3,
+    "name": "Wireless Headphones",
+    "description": "Premium wireless headphones with noise-cancellation.",
+    "price": 149.99,
+    "unit": "Piece",
+    "image": "https://example.com/images/headphones.jpg",
+    "discount": 15,
+    "availability": true,
+    "brand": "SoundMasters",
+    "category": "Electronics",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "user_id": 5,
+        "rating": 5,
+        "comment": "Top-notch sound quality and comfort."
+      },
+      {
+        "user_id": 6,
+        "rating": 4,
+        "comment": "Impressive noise-cancellation, but a bit pricey."
+        }
+        ]
+    }
+    ]
+
+  products.map( function(product) {
+     document.write(` 
+        <div> 
+            <p> ${product.name}</p><br>
+            <img src = ${product.image} width = "100" height = "100" >
+
+
+        </div>
+    `);
+  })
+</script>

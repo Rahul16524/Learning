@@ -1,0 +1,24 @@
+<script>
+    var categories = ["Clothes", "Sports", "Electronics"];
+categories.map( x => console.log(x));
+categories.splice(1,1);
+
+categories.map(function(category) {
+    document.write(`<a href= ""> ${category} </a><br>` + `Hi`);
+})
+
+
+
+
+    var sales = [ 10000, 77000, 49000, 58000, 8000];
+    
+    var result = sales.find(function (value) {
+        return value > 50000;
+    })
+    document.write(result + `<br>`);
+
+    var result = sales.filter(function (value) {
+        return value > 50000;
+    })
+    document.write(result);
+</script>

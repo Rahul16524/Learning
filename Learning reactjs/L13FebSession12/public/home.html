@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 3 libraries are already installed in the project===> not work  -->
+
+
+        <!-- have to use cdn(umd) links -->
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- giving virtual dom to render element -->
+    
+</head>
+<body>
+    <div id="root"></div>
+
+
+    <script type="text/babel">
+        function Login() {      // to present a simple layout 
+            return (    // () because we are returning a html page  
+                <div>
+                    <h2> User Login </h2>    
+                    <dl> 
+                        <dt> User Name </dt>    
+                        <dd> <input type="text" /></dd>
+
+                        <dt> Password </dt>
+                        <dd> <input type="Password"/></dd>
+
+                        <button>Login</button>
+                    </dl>
+                </div>
+            )
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        // root.render("<b> Welcome to React Home </b>");
+        root.render(<Login/>);
+
+
+    </script>
+</body>
+</html>

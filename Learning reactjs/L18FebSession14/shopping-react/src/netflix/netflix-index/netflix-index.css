@@ -1,0 +1,11 @@
+#banner{
+    background-image: url('./netflixback.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    height: 768px;
+}
+
+#shade{
+    height: 768px;
+    background-color: rgba(0,0,0,0.6);
+}

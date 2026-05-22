@@ -1,0 +1,25 @@
+<script>
+    var product = {
+        Name: "TV",
+        Price: 34000.44
+    };
+    // delete product.Price
+    document.write(`Name = ${product.Name} <br>  Price = ${product.Price} <br>`);
+
+    document.write(`Is Price a member of Product : ${"Price" in product}`);
+
+    for( var key in product ) 
+        document.write(key + "<br>");
+
+    // ================================
+
+    let topics = new Map();
+
+    topics.set("html", "It is a markup language");
+    topics.set(1, {
+        Name: "TV",
+        Price: 46000.44
+    })
+
+    document.write(topics.get(1));
+</script>
