@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+C:\Learning\Eclipse\ANTLR\.metadata\.plugins\org.eclipse.jdt.core
+2970524466.index
+108034481.index
+2558484546.index
+263978417.index
+355097269.index
+1865797976.index
+1872377734.index
+3899930587.index
+2742264064.index
+3535003926.index
+1161308408.index
+1647143459.index
+3190707498.index
+3501850707.index
+1728182515.index
+3280574547.index
+3723831976.index
+2641796967.index

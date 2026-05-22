@@ -1,0 +1,16 @@
+# ANTLR JAR file (client will download separately)
+*.jar
+
+# Eclipse files
+.metadata/
+bin/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.class

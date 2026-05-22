@@ -1,0 +1,6 @@
+spring.application.name=los
+
+spring.datasource.url=https://mysql:localhost:8080/
+spring.datasource.name=root
+spring.datasource.password=admin@123
+spring.datasource.class=com.mysql.cj.jdbc

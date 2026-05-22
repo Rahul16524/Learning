@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.antlr.Main"/>
+    <fullyQualifiedTypeName name="org.antlr.runtime.CharStream"/>
+    <fullyQualifiedTypeName name="org.antlr.runtime.CommonTokenStream"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CharStream"/>
+    <fullyQualifiedTypeName name="com.ChatLexer"/>
+    <fullyQualifiedTypeName name="com.ChatParser"/>
+    <fullyQualifiedTypeName name="com.chat.ChatParser"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CharStreams"/>
+    <fullyQualifiedTypeName name="com.querycache.service.QueryService"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CommonTokenStream"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.codegen.model.Recognizer"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.tree.ParseTree"/>
+    <fullyQualifiedTypeName name="org.antlr.runtime.RecognitionException"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.RecognitionException"/>
+</qualifiedTypeNameHistroy>

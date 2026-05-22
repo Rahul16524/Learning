@@ -1,0 +1,5 @@
+com\querycache\model\QueryPlan.class
+com\querycache\service\QueryService.class
+com\querycache\Main.class
+com\querycache\parser\QueryNormalizer.class
+com\querycache\cache\QueryPlanCache.class

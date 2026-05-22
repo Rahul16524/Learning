@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="getcur"/>
+			<item value="getCurrentschema"/>
+			<item value="gettab"/>
+			<item value="result_"/>
+			<item value="tables"/>
+			<item value="getTables"/>
+			<item value="getC"/>
+			<item value="calculateEs"/>
+			<item value="setSchema"/>
+			<item value="calculat"/>
+			<item value="queryexecution"/>
+			<item value="teststats"/>
+			<item value="phas1"/>
+			<item value="QueryExecution"/>
+			<item value="queryexe"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="365"/>
+		<item key="DIALOG_Y_ORIGIN" value="242"/>
+	</section>
+</section>
